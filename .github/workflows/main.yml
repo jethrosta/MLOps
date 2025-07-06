@@ -39,7 +39,7 @@ jobs:
       # Run as a mlflow project
       - name: Run mlflow project
         run: |
-            mlflow run latihan-docker --env-manager=local
+            mlflow run --env-manager=local
 
       # Get latest runid
       - name: Get latest MLflow run_id
