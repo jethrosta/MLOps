@@ -54,7 +54,7 @@ Solution: Automate this by wrapping data loading/preprocessing into a single fun
 This module introduces GitHub Actions to automate data validation and preprocessing before training, making your ML pipeline more robust and efficient.
 
 ## 🔄 MLFlow: Managing the ML Lifecycle
-MLflow is an open-source platform that helps manage the end-to-end ML workflow—from tracking experiments to deploying models. It keeps everything—parameters, metrics, models—in one place.
+MLflow is an open-source platform that helps manage the end-to-end ML workflow, from tracking experiments to deploying models. It keeps everything, parameters, metrics, models, in one place.
 
 <div align="center"> <img src="https://assets.cdn.dicoding.com/original/academy/dos-03fdb97d263203c84a96e772408312bf20250318124211.png"> </div>
 It works with libraries like TensorFlow, PyTorch, Scikit-learn, and XGBoost.
