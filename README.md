@@ -137,4 +137,12 @@ Ketika Docker, Prometheus, dan Grafana digabungkan dalam sebuah alur kerja DevOp
 Singkatnya, integrasi Docker + Prometheus + Grafana menjadikan proses pengembangan, deployment, dan pemantauan lebih otomatis, dapat dipercaya, dan skalabel.
 
 # Dokumentasi Hasil Latihan
-
+Saya berhasil membuat dashboard sederhana dengan melakukan monitoring performa CPU, RAM, Jumlah request endpoint, dan juga Latensi.
+<div align="center">
+  <img src="https://github.com/jethrosta/MLOps/blob/main/images/Screenshot%202025-07-07%20at%2016.25.13.png">
+</div>
+Dapat dilihat setiap matrik/visualisasi memiliki manfaatnya masing-masing dan dapat dilihat secara realtime. Kemudian Saya membuat sistem alerting dimana ketika model Machine Learning telah melakukan prediksi sebanyak 4000 kali, maka Grafana akan memberikan alert kepada saya melalui email dan menganjurkan untuk melatih kembali model Machine Learning agar menghindari Drifting atau pegeseran akurasi karena jumlah dataset atau trend yang berubah.
+<div align="center">
+  <img src="https://github.com/jethrosta/MLOps/blob/main/images/Screenshot%202025-07-07%20at%2016.25.53.png">
+</div>
+Sehingga ketika 
